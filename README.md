@@ -38,7 +38,7 @@ You can change the following settings for your custom firmware in `platformio.in
 * Firmware Extension(with a dot)  
   `custom_firmware_suffix`(default: `.bin`)
 * Target Directory  
-  `custom_firmware_dir`(default: 'firmware')
+  `custom_firmware_dir`(default: `firmware`)
 
 If you want to change the target name(`firmware`) for `pio run`, edit the parameter `name` for `env.AddCustomTarget()` in `generate_user_custom.py`.
 
